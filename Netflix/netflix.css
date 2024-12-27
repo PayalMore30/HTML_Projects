@@ -17,24 +17,26 @@ body{
      align-items: center;
 }
 img{
-    width:250px;
+    width:230px;
     position: absolute;
-    top:-5px;
-    left: 40px;
+    top:-10px;
+    left: 100px;
 }
 .navbar{
     position: absolute;
-    top:40px;
+    top:30px;
     right: 120px;
     gap: 20px;
 }
 #language{
-    width:100px;
+    width:120px;
     height: 30px;
     margin-right: 20px;
     border-radius: 5px;
     background: transparent;
     color: white;
+    padding-left: 15px;
+    font-size: 16.5px;
 }
 .signin{
     font-size: 14px;
@@ -44,13 +46,14 @@ img{
     padding:5px;
     background-color: red;
     border-radius: 5px;
+    font-size: 16.5px;
 }
 h1{
     font-size: 3.5rem;
     font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
     font-weight: 900;
 }
-h3{
+#desc{
     margin: 10px;
     font-size: 1.25rem;
     font-weight: 500;
@@ -68,7 +71,7 @@ p{
 #email{
     width: 400px;
     height: 55px;
-    padding-left:10px;
+    padding-left:15px;
     background: transparent;
     color: rgb(235, 228, 228);
     font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
@@ -78,14 +81,14 @@ p{
 .start{
     width: 200px;
     height: 55px;
-    background-color: red;
+    background-color: rgb(223, 27, 27);
     border-radius: 5px;
     color: white;
     font-size: 23px;
     border:none ;
 }
 .second-container{
-    height:300vh;
+    
     background-color: black;
 }
 .curv{
@@ -137,16 +140,16 @@ h2{
     scrollbar-width: none;
     height: 15em;
     margin-bottom: 3em;
-    position:relative;
+   
 }
 #box1{
-    min-height: 15em;
+    height: 15em;
     min-width: 11.5em;
     background-image:url("image1.jpg");
     background-size: cover;
     border-radius: 10px;
     margin-right: 2em;
-
+    position: relative;
 }
 #box2{
     height: 15em;
@@ -163,6 +166,8 @@ h2{
     background-size: cover;
     border-radius: 10px;
     margin-right: 2em;
+    position: relative;
+
 }
 #box4{
     height: 15em;
@@ -211,38 +216,13 @@ h2{
 .recent{
     height: 1.5em;
     padding: 5px;
-    background-color: red;
+    background-color: rgb(210, 21, 21);
     border: none;
     border-radius: 5px;
     color:white;
     font-size: 20px;
-    position: absolute;
-    top:220px;
-    left:30px;
-}
-.recent2{
-    height: 1.5em;
-    padding: 5px;
-    background-color: red;
-    border: none;
-    border-radius: 5px;
-    color:white;
-    font-size: 20px;
-    position: absolute;
-    top:200px;
-    left:30px;
-}
-.recent3{
-    height: 1.5em;
-    padding: 5px;
-    background-color: red;
-    border: none;
-    border-radius: 5px;
-    color:white;
-    font-size: 20px;
-    position: absolute;
-    top:220px;
-    left:30px;
+    margin-top: 10.5em;
+    margin-left: 1em;
 }
 
 .options{
@@ -282,9 +262,10 @@ p{
 #Que1:hover,#Que2:hover,#Que3:hover,#Que4:hover,#Que5:hover,#Que6:hover{
     background-color: rgb(59, 56, 56);
 }
-h3{
-    font-size: 18px;
-    margin-left: 18em;
+#foot-desc{
+    font-size: 16px;
+    margin-left: 20em;
+    color: rgb(171, 162, 162);
 }
 .Que-call{
     color: rgb(171, 162, 162);
@@ -292,21 +273,27 @@ h3{
     font-weight:500;
     margin-left: 0em;
 }
-h4{
-    width:10em;
+a{
     color: rgb(171, 162, 162);
     font-weight:500;
+    gap:50px;
+    margin-bottom: 1em;
 }
 .footer{
-    width:70em;
-}
-.line1{
-    display:flex;
+    display: flex;
     flex-direction: row;
-    justify-content: space-between;
+
+}
+#ref1,#ref2,#ref3,#ref4{
+    display:flex;
+    flex-direction: column;
+    margin-top: 2em;
+}
+#ref2,#ref3,#ref4{
+    margin-left: 10em;
 }
 #lang{
-    width:100px;
+    width:120px;
     height: 30px;
     margin-right: 20px;
     border-radius: 5px;
@@ -314,9 +301,26 @@ h4{
     color: white;
     margin-top: 5em;
     margin-bottom: 3em;
+    padding-left: 15px;
+    font-size: 16.5px;
 }
-
-
+option{
+    color: black;
+}
+h4{
+    color: rgb(171, 162, 162);
+    font-weight:500; 
+}
+#num{
+    position: relative;
+    top: -148px;
+    left: -18px;
+    font-weight: 700;
+    font-size: 6.5em;
+    color: black;
+    z-index: 13;
+    text-shadow: -1px 0 rgb(243, 236, 236), 0 1px rgb(238, 231, 231), 1px 0 rgb(234, 227, 227), 0 -1px rgb(236, 228, 228);
+}
 
 
 
