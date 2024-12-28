@@ -238,10 +238,19 @@ h2{
     background-image:linear-gradient(to right bottom, rgba(25, 36, 95, 0.9),rgb(48, 16, 5));
     border-radius: 20px;
     padding: 20px;
+    position: relative;
+    overflow: auto;
+    scrollbar-width: none;
 }
 p{
     color: rgb(196, 189, 189);
     margin-top: 20px;
+    position: absolute;
+    bottom:-100px;
+
+}
+.option1:hover p,.option2:hover p,.option3:hover p,.option4:hover p{
+    top:100px;
 }
 .questions{
     display: flex;
