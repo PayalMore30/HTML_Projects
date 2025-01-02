@@ -1,0 +1,50 @@
+.container{ 
+    width: 100vp;
+    height: 200vh;
+     gap: 0px;
+     opacity: 0px;
+
+}
+.cloud{
+    background-image: url("cloud.png");
+    /*min-height: 1531px;*/
+    top: 0px;
+    gap: 0px;
+   opacity: 0px;
+   position: relative;
+   min-height: 280px;
+}
+.mountain{ 
+    background-image: url("mountain.png");
+    width: 100vp;
+    /*min-height: 1349px;*/
+    top: -279px;
+    gap: 0px;
+    opacity: 0px;
+    position: relative;
+    min-height: 1000px;
+}
+.man{
+    background-image: url("man.png");
+    top: -925px;
+    /*min-height: 930px; */
+    min-height: 930px;
+    width: 100vp; 
+    position: relative;
+}
+/* Header */
+
+.logo{
+    position: absolute;
+   width: 1760px;
+   height: 25px;
+   left: 80px;
+   top: 64px;
+}
+.equipment{
+    position: absolute;
+    width:90px;
+    height:22px;  
+    top:50px;
+    left:739px;
+}
